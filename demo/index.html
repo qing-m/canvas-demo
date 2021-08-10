@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习CANVAS-Index</title>
+  <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+  <canvas width="500" height="500" id="canvas"></canvas>
+</body>
+</html>
+<script src="../js/canvas.js"></script>
+<script>
+  ctx.fillRect(250, 250, 100, 100); // 绘制一个填充的矩形
+  ctx.clearRect(275, 275, 50, 50); // 清除指定矩形区域，让清除部分完全透明
+  ctx.strokeRect(280, 280, 40, 40); // 绘制一个矩形的边框
+
+  ctx.fillRect(10,10,80,80)
+  ctx.clearRect(25,25,50,50)
+  ctx.strokeRect(38,38,25,25);
+</script>
